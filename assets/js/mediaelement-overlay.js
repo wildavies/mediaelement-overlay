@@ -1,7 +1,8 @@
 'use strict';
 /*!
 * mediaelement-overlay.js
-* http://www.wildavies.com/
+* https://github.com/wildavies/
+* https://github.com/wildavies/mediaelement-overlay
 *
 * Extends MediaElement.js (http://mediaelementjs.com/) to allow videos to be opened in an overlay.
 *
