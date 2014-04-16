@@ -1,0 +1,28 @@
+/* Close Button */
+
+#close-video{
+    float:right;
+    width:20px;
+    height:20px;
+    text-indent:-9999em;
+    display:block;
+    overflow:hidden;
+    position:absolute;
+    top:20px;
+    right:20px; 
+    background: transparent url(../img/video-close.svg) no-repeat 0 0;
+}
+#close-video:hover,
+#close-video:focus{
+    background-position:0 -20px;
+}
+
+/* Background for browsers without SVG support */
+
+.no-svg #close-video{
+    background: transparent url(../assets/img/video-close.png) no-repeat 0 0;
+}
+.no-svg #close-video:hover,
+.no-svg #close-video:focus{
+    background-position:0 -20px;
+}
