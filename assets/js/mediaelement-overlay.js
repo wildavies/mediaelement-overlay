@@ -25,7 +25,11 @@
                 var mejs = mejs || {};
 
                 mejs.OverlayOpts = {
-                    overlayTriggerClass: 'my-classname'
+                    overlayTriggerClass: 'my-classname',
+                    videoWidth:120,
+                    videoHeight:100,
+                    skinClass: 'my-skin',
+                    autoplay: true
                 };
             </script>
     */    
